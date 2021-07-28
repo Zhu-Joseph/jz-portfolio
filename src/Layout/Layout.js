@@ -1,7 +1,7 @@
 import React from 'react'
-import About from './About'
-import Contact from './Contact'
-import Nav from './Nav'
+import About from './About/About'
+import Contact from './Contact/Contact'
+import Nav from './Nav/Nav'
 
 
 
