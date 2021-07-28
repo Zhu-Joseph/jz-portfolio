@@ -1,8 +1,11 @@
+import Layout from "./Layout/Layout";
+
+
 
 function App() {
   return (
     <div >
-      Hello World
+      <Layout />
     </div>
   )
 }
