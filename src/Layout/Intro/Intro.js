@@ -1,13 +1,22 @@
 import React from 'react'
-import profilePic from "../../DataStorage/ProfilePics.json"
+import pictures from "../../DataStorage/ProfilePics.json"
 
 export default function Intro() {
+
+    // function randomPic () {
+        const pictureNum = Math.floor(Math.random() * 5)
+        // return pictureNum
+    // }
+
+    console.log(pictureNum)
+
     return (
         <div>
             <section>
                 <div>
                     <div>
-                       <img alt={profilePic[0].alt} src={profilePic[0].url} />
+                       {/* <img alt={profilePic[0].alt} src={profilePic[0].url} /> */}
+                       
                     </div>
                     <div>
                         <h1>Hi I'm Joseph Zhu</h1>
