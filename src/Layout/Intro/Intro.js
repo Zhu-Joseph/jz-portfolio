@@ -1,4 +1,5 @@
 import React from 'react'
+import profilePic from "../../DataStorage/ProfilePics.json"
 
 export default function Intro() {
     return (
@@ -6,7 +7,7 @@ export default function Intro() {
             <section>
                 <div>
                     <div>
-                        {/* <img /> Placeholder for future image */}
+                       <img alt={profilePic[0].alt} src={profilePic[0].url} />
                     </div>
                     <div>
                         <h1>Hi I'm Joseph Zhu</h1>
