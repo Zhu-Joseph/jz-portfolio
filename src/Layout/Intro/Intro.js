@@ -3,19 +3,21 @@ import pictures from "../../DataStorage/ProfilePics.json"
 
 export default function Intro() {
 
-    // function randomPic () {
-        const pictureNum = Math.floor(Math.random() * 5)
-        // return pictureNum
-    // }
 
-    console.log(pictureNum)
+    const pictureNum = Math.floor(Math.random() * 5)
+    
+    const Alt = pictures[pictureNum].alt
+    const Url = pictures[pictureNum].url
+
+
+    
 
     return (
         <div>
             <section>
                 <div>
                     <div>
-                       {/* <img alt={profilePic[0].alt} src={profilePic[0].url} /> */}
+                       <img alt={Alt} src={Url} />
                        
                     </div>
                     <div>
