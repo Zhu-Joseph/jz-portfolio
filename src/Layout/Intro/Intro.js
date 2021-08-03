@@ -1,5 +1,6 @@
 import React from 'react'
 import pictures from "../../DataStorage/ProfilePics.json"
+import "./Intro.css"
 
 export default function Intro() {
 
@@ -16,9 +17,8 @@ export default function Intro() {
         <div>
             <section>
                 <div>
-                    <div>
-                       <img alt={Alt} src={Url} />
-                       
+                    <div className="Profile">
+                       <img alt={Alt} src={Url} />                      
                     </div>
                     <div>
                         <h1>Hi I'm Joseph Zhu</h1>
