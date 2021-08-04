@@ -19,7 +19,8 @@ export default function Projects() {
     })
 
     return (
-        <div>
+        <div id="Projects">
+            <h3>Projects</h3>
             {list}
         </div>
     )

@@ -7,21 +7,22 @@ export default function Nav() {
         <nav>
             <ul>
                 <li>
-                    <Link>
+                    <a href="#About">
                         About
-                    </Link>                   
+                    </a>                   
                 </li>
                 <li>
-                    <Link>
+                    <a href="#Projects">
                         Projects
-                    </Link>                    
+                    </a>                    
                 </li>
                 <li>
-                    <Link>
+                    <a href="#Contact">
                         Contact
-                    </Link>
+                    </a>
                 </li>
             </ul>
+            <h2>Joseph Zhu</h2>
         </nav>
     )
 }
