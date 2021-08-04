@@ -4,7 +4,7 @@
         "subtitle": "Restaurant Assistance Manager",
         "imageUrl": "https://lh3.googleusercontent.com/jXSIhGC3vEjhVj6otz5CRDYl94NHkSspSORmFOCkpB7t_N3ECRYwnYo2FFQFx0ywKePTiEZwNkVu14XxCUNEOaPshs-2Yy-O8yHKE14IE2I2O9ZjnLUNoWUf_ez2oZWB6Ie8Kklp1w=w2400",
         "description": "RAM is an app that assists restaurant managers in organizing and seating their reservations. By keeping the app simple, RAM is incredibly easy to use and user friendly. This helps small businesses focus less on training to learn new technology and more on providing the best restaurant experience.",
-        "skillsApplied": ["JavaScript", "React", "React Router", "Node.js", "Express", "Knex", "Mocha", "Chai", "HTML", "CSS", "PostgresSQL"],
+        "skillsApplied": ["JavaScript ", "React ", "React Router ", "Node.js ", "Express ", "Knex ", "Mocha ", "Chai ", "HTML ", "CSS ", "PostgresSQL "],
         "liveSiteUrl": "https://restaurant-reservation-front-end-opal.vercel.app/dashboard"
     },
     {
