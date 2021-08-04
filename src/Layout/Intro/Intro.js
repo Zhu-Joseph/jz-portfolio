@@ -10,18 +10,15 @@ export default function Intro() {
     const Alt = pictures[pictureNum].alt
     const Url = pictures[pictureNum].url
 
-
-    
-
     return (
         <div>
             <section>
                 <div>
-                    <div className="Profile">
-                       <img alt={Alt} src={Url} />                      
+                    <div className="text-center">
+                       <img alt={Alt} src={Url} className="rounded float-left img-thumbnail"/>                      
                     </div>
                     <div>
-                        <h1>Hi I'm Joseph Zhu</h1>
+                        <h1 className="text-muted">Hi I'm Joseph Zhu</h1>
                         <p>
                             I graduated from UCLA in 2016 with a career lined up as a tax accountant. 
                             My hope was to help guide people towards financial freedom, 
