@@ -3,7 +3,7 @@ import "./Nav.css"
 
 export default function Nav() {
     return (
-        <nav class="navbar fixed-top navbar-light bg-light">
+        <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
         {/* // <nav className="Nav"> */}
             <div className="d-flex flex-row">
 

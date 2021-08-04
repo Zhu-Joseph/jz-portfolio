@@ -9,7 +9,7 @@ import Projects from './Projects/Projects'
 
 export default function Layout() {
     return (
-        <div>
+        <div className="container">
             <Nav />
             <Intro />
             <About />

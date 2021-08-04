@@ -15,7 +15,7 @@ export default function Intro() {
             <section>
                 <div>
                     <div className="text-center">
-                       <img alt={Alt} src={Url} className="rounded float-left img-thumbnail"/>                      
+                       <img alt={Alt} src={Url} className="rounded-circle float-left img-thumbnail"/>                      
                     </div>
                     <div>
                         <h1 className="text-muted">Hi I'm Joseph Zhu</h1>
