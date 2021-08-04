@@ -1,0 +1,16 @@
+/* 
+.Nav > ul {
+    display: flex;
+    position: fixed;
+    height: 30px;
+  }
+  
+  .Nav__ul > li {
+    margin: 0 .5em;
+    font-style: italic;
+  }
+  
+  .Nav > a:hover {
+    font-style: normal;
+    text-decoration: underline;
+  } */
