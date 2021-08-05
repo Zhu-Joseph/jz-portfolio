@@ -4,7 +4,15 @@ import "./Nav.css"
 export default function Nav() {
     return (
         <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
-        {/* // <nav className="Nav"> */}
+            
+            <div className="d-flex flex-row align-items-center">
+                <h2 className="mr-auto p-2">
+                    <a className="nav-link" href="#About">
+                            Joseph Zhu
+                    </a>
+                </h2>
+            </div>
+
             <div className="d-flex flex-row">
 
                 <ul className="navbar-nav d-flex flex-row">
@@ -32,12 +40,6 @@ export default function Nav() {
                             </a>
                         </li>
                     </div>
-
-                    <li className="mr-auto p-2">
-                        <a className="nav-link" href="#Contact">
-                                Joseph Zhu
-                        </a>
-                    </li>
 
                 </ul>
             
