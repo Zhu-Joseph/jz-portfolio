@@ -3,7 +3,7 @@ import "./Nav.css"
 
 export default function Nav() {
     return (
-        <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
+        <nav className="Nav">
             
             <div className="d-flex flex-row align-items-center">
                 <h2 className="mr-auto p-2">
@@ -15,10 +15,10 @@ export default function Nav() {
 
             <div className="d-flex flex-row">
 
-                <ul className="navbar-nav d-flex flex-row">
+                <ul className="Nav__ul">
                     
-                    <div className="p-2">
-                        <li className="nav-item">
+                    <div >
+                        <li className="li">
                             <a className="nav-link" href="#About">
                                 About
                             </a>                   
@@ -26,7 +26,7 @@ export default function Nav() {
                     </div>
 
                     <div className="p-2">
-                        <li className="nav-item">
+                        <li className="li">
                             <a className="nav-link" href="#Projects">
                                 Projects
                             </a>                    
