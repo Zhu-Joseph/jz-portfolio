@@ -1,17 +1,24 @@
-.navbar {
+ul {
+    list-style-type: none;
     display: flex;
-    position: fixed;
-    text-align: center;
-    height: 30px;
-    background-color: rgb(143, 161, 188);
-  }
-  
-.navlink {
-    position: relative;
-    text-decoration: none;
+} 
+
+nav {
+  position: fixed;
 }
 
-.navlink::before {
+.nav-link {
+    position: relative;
+    text-decoration: none;
+    justify-content: center;
+} 
+
+.nav-link:hover {
+  color: green;
+  background: red;
+} 
+
+.nav-link::before {
     content: "";
     position: absolute;            
     height: 3px;
@@ -19,50 +26,48 @@
     bottom: -3px;
     left: 0px;
     background-color: pink;
-}
-
-.navlink::before {
-  background: linear-gradient(to right, pink 40%, purple 75%);
+    background: linear-gradient(to right, pink 40%, purple 75%);
 }
 
 
-.navlink:hover {
-  color: red;
-}
-
-
-
-/* .li {
-  color: green;
-}
-
-  .Nav__ul > li {
-    margin: 0 .5em;
-    font-style: italic;
-  }
-  
-  .Nav > a:hover {
-    font-style: normal;
-    text-decoration: underline;
-  } */
-  
 
 /* TO ADJUST FOR DESKTOP */
-  @media screen and (min-width: 768px) {
-    Nav {
+@media screen and (min-width: 768px) {
+
+
+  ul {        
       display: flex;
-      justify-content: space-between;
       align-items: center;
-    }
-      ul {        
-          display: flex;
-          align-items: center;
-      }
-  
-      ul li {
-          margin-right: 20px;
-          
-      }
-      
-    
   }
+
+  ul li {
+      margin-right: 20px;
+  }
+  
+  ul:last-child {
+    margin-right: 0px;
+  }
+    
+  nav {
+    position: fixed; 
+    overflow: hidden;
+    background-color: #333;
+
+    top: 0; 
+    width: 100%; 
+  }
+
+  nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    background: #ddd;
+    color: black;
+  }
+}
