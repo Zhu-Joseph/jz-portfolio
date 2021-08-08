@@ -3,47 +3,41 @@ import "./Nav.css"
 
 export default function Nav() {
     return (
-        <nav className="Nav">
+        <nav className="navbar">
             
-            <div className="d-flex flex-row align-items-center">
-                <h2 className="mr-auto p-2">
+            {/* <div className="d-flex flex-row align-items-center"> */}
+                <h2 className="name">
                     <a className="nav-link" href="#About">
                             Joseph Zhu
                     </a>
                 </h2>
-            </div>
+            {/* </div> */}
 
-            <div className="d-flex flex-row">
-
-                <ul className="Nav__ul">
-                    
-                    <div >
-                        <li className="li">
-                            <a className="nav-link" href="#About">
+            {/* <div className="d-flex flex-row"> */}
+                <ul className="Nav__ul">                   
+                    <div>
+                        <li>
+                            <a className="navlink" href="#About">
                                 About
                             </a>                   
                         </li>
                     </div>
-
                     <div className="p-2">
-                        <li className="li">
-                            <a className="nav-link" href="#Projects">
+                        <li >
+                            <a className="navlink" href="#Projects">
                                 Projects
                             </a>                    
                         </li>
                     </div>
-                    
                     <div className="p-2">
                         <li className="nav-item">
-                            <a className="nav-link" href="#Contact">
+                            <a className="navlink" href="#Contact">
                                 Contact
                             </a>
                         </li>
                     </div>
-
-                </ul>
-            
-            </div>
+                </ul>            
+            {/* </div> */}
 
         </nav>
     )

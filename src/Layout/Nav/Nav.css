@@ -1,12 +1,38 @@
-
-.Nav {
+.navbar {
     display: flex;
     position: fixed;
+    text-align: center;
     height: 30px;
     background-color: rgb(143, 161, 188);
   }
   
-.li {
+.navlink {
+    position: relative;
+    text-decoration: none;
+}
+
+.navlink::before {
+    content: "";
+    position: absolute;            
+    height: 3px;
+    right: 0px;
+    bottom: -3px;
+    left: 0px;
+    background-color: pink;
+}
+
+.navlink::before {
+  background: linear-gradient(to right, pink 40%, purple 75%);
+}
+
+
+.navlink:hover {
+  color: red;
+}
+
+
+
+/* .li {
   color: green;
 }
 
@@ -18,4 +44,25 @@
   .Nav > a:hover {
     font-style: normal;
     text-decoration: underline;
+  } */
+  
+
+/* TO ADJUST FOR DESKTOP */
+  @media screen and (min-width: 768px) {
+    Nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+      ul {        
+          display: flex;
+          align-items: center;
+      }
+  
+      ul li {
+          margin-right: 20px;
+          
+      }
+      
+    
   }
