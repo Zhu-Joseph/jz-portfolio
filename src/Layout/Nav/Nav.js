@@ -4,11 +4,6 @@ import "./Nav.css"
 export default function Nav() {
     return (
         <nav className="">
-            <h2 >
-                <a className="nav-link" href="#About">
-                    Joseph Zhu
-                </a>
-            </h2>
             <ul >                   
                 <li>
                     <a className="nav-link" href="#About">

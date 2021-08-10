@@ -1,21 +1,22 @@
 ul {
     list-style-type: none;
     display: flex;
+    align-items: center;
 } 
 
 nav {
   position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  background-color: red;
 }
 
 .nav-link {
-    position: relative;
-    text-decoration: none;
-    justify-content: center;
-} 
-
-.nav-link:hover {
-  color: green;
-  background: red;
+  position: relative;
+  text-decoration: none;
+  justify-content: center;
 } 
 
 .nav-link::before {
@@ -31,28 +32,22 @@ nav {
 
 
 
-/* TO ADJUST FOR DESKTOP */
+/* TO ADJUST FOR DESKTOP CLASS BEATS OR SUPERSEDS GLOBAL NAV*/
 @media screen and (min-width: 768px) {
 
-
-  ul {        
-      display: flex;
-      align-items: center;
-  }
-
   ul li {
-      margin-right: 20px;
+    margin-right: 20px;
   }
   
   ul:last-child {
-    margin-right: 0px;
+    margin-right: 10px;
   }
     
   nav {
     position: fixed; 
     overflow: hidden;
     background-color: #333;
-
+    justify-content: space-between;
     top: 0; 
     width: 100%; 
   }
@@ -70,4 +65,7 @@ nav {
     background: #ddd;
     color: black;
   }
+
+
+
 }
