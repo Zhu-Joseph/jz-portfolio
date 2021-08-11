@@ -4,12 +4,9 @@ import Contact from './Contact/Contact'
 import Header from './Header/Header'
 import Intro from './Intro/Intro'
 import Projects from './Projects/Projects'
-
-
+import Footer from './Footer/Footer'
 
 export default function Layout() {
-
-    const currentYear = new Date().getFullYear()
 
     return (
         <div className="container">
@@ -18,9 +15,7 @@ export default function Layout() {
             <About />
             <Projects />
             <Contact />
-            <footer>
-                <div>&copy; 2020-{currentYear} Joseph Zhu</div>
-            </footer>
+            <Footer />
         </div>
     ) 
 }
