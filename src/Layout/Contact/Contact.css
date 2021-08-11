@@ -1,0 +1,9 @@
+.Contact___links {
+    margin: 1em 0;
+    text-align: center;
+}
+  
+.Contact___links > * {
+margin: 0 .7em;
+
+}

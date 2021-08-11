@@ -3,20 +3,20 @@ import "./Nav.css"
 
 export default function Nav() {
     return (
-        <nav className="">
-            <ul >                   
+        <nav className="Nav">
+            <ul className="Nav__ul">                   
                 <li>
-                    <a className="nav-link" href="#About">
+                    <a  href="#About">
                         About
                     </a>                   
                 </li>
                 <li>
-                    <a className="nav-link" href="#Projects">
+                    <a  href="#Projects">
                         Projects
                     </a>                    
                 </li>
                 <li >
-                    <a className="nav-link" href="#Contact">
+                    <a href="#Contact">
                         Contact
                     </a>
                 </li>

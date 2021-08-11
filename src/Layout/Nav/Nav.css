@@ -10,7 +10,7 @@ nav {
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .nav-link {
@@ -30,7 +30,20 @@ nav {
     background: linear-gradient(to right, pink 40%, purple 75%);
 }
 
+/* OTHER CODE */
+.Nav > ul {
+  display: flex;
+}
 
+.Nav__ul > li {
+  margin: 0 .5em;
+  font-style: italic;
+}
+
+.Nav > a:hover {
+  font-style: normal;
+  text-decoration: underline;
+}
 
 /* TO ADJUST FOR DESKTOP CLASS BEATS OR SUPERSEDS GLOBAL NAV*/
 @media screen and (min-width: 768px) {
@@ -46,7 +59,7 @@ nav {
   nav {
     position: fixed; 
     overflow: hidden;
-    background-color: #333;
+    /* background-color: #333; */
     justify-content: space-between;
     top: 0; 
     width: 100%; 
@@ -55,7 +68,7 @@ nav {
   nav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
