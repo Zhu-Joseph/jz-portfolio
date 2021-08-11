@@ -15,6 +15,9 @@ export default function Layout() {
             <About />
             <Projects />
             <Contact />
+            <footer>
+            <div>&copy; 2020-{new Date().getFullYear()} Joseph Zhu</div>
+            </footer>
         </div>
     )
 }
