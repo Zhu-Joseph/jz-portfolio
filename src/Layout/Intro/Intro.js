@@ -14,11 +14,11 @@ export default function Intro() {
         <div>
             <section>
                 <div>
-                    <div className="text-center">
-                       <img alt={Alt} src={Url} className="rounded-circle float-left img-thumbnail"/>                      
+                    <div className="">
+                       <img alt={Alt} src={Url} className="Pic"/>                      
                     </div>
                     <div>
-                        <h1 className="text-muted">Hi I'm Joseph Zhu</h1>
+                        <h1 className="Profile">Hi I'm Joseph Zhu</h1>
                         <p>
                             I graduated from UCLA in 2016 with a career lined up as a tax accountant. 
                             My hope was to help guide people towards financial freedom, 
