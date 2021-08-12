@@ -8,14 +8,22 @@ export default function Projects() {
         const {name, subtitle, imageUrl, liveSiteUrl, description, skillsApplied} = project
         
         return (
-            <div className="">
+            <div className="Project">
                 <h3>{name}</h3>
                 <h4>{subtitle}</h4>
-                <a alt={subtitle} target="_blank" rel="noreferrer" className="" href={liveSiteUrl}>
-                    <img alt={name} src={imageUrl} className="Project__img" />
-                </a>
-                <p className="Project___rightColumn">{description}</p>
-                <p>{skillsApplied}</p>
+                <div className="Project___flexContainer">                  
+                    <a alt={subtitle} href={liveSiteUrl} target="_blank" rel="noreferrer" >
+                        <img alt={name} src={imageUrl} className="Project__img " />
+                    </a>
+                    
+                    <div className="Project___rightColumn">
+                        <p>{description}</p>
+                        <ul className="Project__ul">
+                            {skillsApplied.map((skill, index) => <li key={index}>{skill}</li>)}
+                        </ul>
+                    </div>
+
+                </div>
             </div>
         )
     })

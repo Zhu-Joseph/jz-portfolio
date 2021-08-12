@@ -30,6 +30,17 @@
     padding: .4em .7em;
   }
   
+  .Project__img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+
+  .Project__img:hover {
+    -webkit-filter: grayscale(30%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(30%);
+  }
+
+
   @media screen and (min-width: 425px) {
     .Project__img {
       margin: 0 calc(calc(100% - 360px) / 2)
