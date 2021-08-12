@@ -14,7 +14,7 @@ export default function Intro() {
         <div>
             <section>
                 <div>
-                    <div className="">
+                    <div id="About">
                        <img alt={Alt} src={Url} className="Pic"/>                      
                     </div>
                     <div>
