@@ -1,5 +1,5 @@
 .Header {
-    background-color: #f6efe7;
+    background-color: #3AAFA9;
     width: 100vw;
     padding: 0 1em 1em;
     display: flex;
@@ -17,6 +17,10 @@
     width: fit-content;
     margin: .5em;
   }
+  
+.Title {
+  color: black;
+}
   
 @media screen and (min-width: 768px) {
   .Header {

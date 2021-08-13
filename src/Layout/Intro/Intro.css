@@ -1,23 +1,18 @@
-/* .Profile {
-    background-color: #f6efe7;
-    width: 100vw;
-    padding: 0 1em 1em;
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    top: 0; left: 0;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 6px 6px -6px, rgba(0, 0, 0, 0.1) 0px 0px 1px -1px;
-    z-index: 1000; 
-} */
-
-
 .Pic {
     border-radius: 300px;
     width: 300px;
     height: 300px;
     display: block;
+    border: 100px;
+    margin-top: 2.5em;
+    margin-bottom: 1em;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+   .Pic {
+       width: 400px;
+       height: 400px;
+   }
 }

@@ -3,6 +3,7 @@ import "./Nav.css"
 
 export default function Nav() {
     return (
+        <>
         <nav className="Nav">
             <ul className="Nav__ul">                   
                 <li>
@@ -22,5 +23,9 @@ export default function Nav() {
                 </li>
             </ul>            
         </nav>
+        <a>
+        {/* FOR SOME REASON THIS NEEDS TO BE HERE FOR CSS TO WORK  */}
+        </a>
+        </>
     )
 }
