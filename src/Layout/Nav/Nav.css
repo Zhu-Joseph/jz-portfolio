@@ -4,14 +4,6 @@ ul {
     align-items: center;
 } 
 
-nav {
-  position: fixed;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
-  /* background-color: red; */
-}
 
 .nav-link {
   position: relative;
@@ -78,7 +70,5 @@ nav {
     background: #ddd;
     color: black;
   }
-
-
 
 }

@@ -5,7 +5,7 @@ import "./Contact.css"
 export default function Contact() {
   // FILL CHANGE DEPENDING ON THE COLOR CODE I PUT IN
     return (
-        <div className="Contact___links">
+        <div id="Contact" className="Contact___links">
           <h3>Contact</h3>
           <p>I'm currently looking for the right job opportunity. If you think I'd be a good fit for your team or project, please feel free to each out!</p>
           <a target="_blank" rel="noreferrer" href="mailto:josephzhu3@gmail.com">

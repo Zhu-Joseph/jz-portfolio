@@ -29,7 +29,7 @@ export default function Projects() {
     })
 // MAKE SURE TO ADD ID TO THE DIV LATER
     return (
-        <div className="Project">
+        <div id="Projects" className="Project">
             <h3>Projects</h3>
             {list}
         </div>
