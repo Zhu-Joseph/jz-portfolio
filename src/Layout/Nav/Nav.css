@@ -1,41 +1,41 @@
-ul {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-} 
 
 
-.nav-link {
-  position: relative;
-  text-decoration: none;
-  justify-content: center;
-} 
-
-.nav-link::before {
-    content: "";
-    position: absolute;            
-    height: 3px;
-    right: 0px;
-    bottom: -3px;
-    left: 0px;
-    background-color: pink;
-    background: linear-gradient(to right, pink 40%, purple 75%);
-}
 
 /* OTHER CODE */
 .Nav > ul {
   display: flex;
+  align-items: center;
+  list-style-type: none;
 }
 
 .Nav__ul > li {
   margin: 0 .5em;
   font-style: italic;
+  position: relative;
+  text-decoration: none;
+  justify-content: center;
 }
 
-.Nav > a:hover {
+.Nav a:hover {
   font-style: normal;
   text-decoration: underline;
+  color: red;
 }
+
+.Nav a::before {
+  content: "";
+  position: absolute;            
+  height: 3px;
+  right: 0px;
+  bottom: -3px;
+  left: 0px;
+  background-color: pink;
+  background: linear-gradient(to right, pink 40%, purple 75%);
+}
+
+
+
+
 
 /* TO ADJUST FOR DESKTOP CLASS BEATS OR SUPERSEDS GLOBAL NAV*/
 @media screen and (min-width: 768px) {
