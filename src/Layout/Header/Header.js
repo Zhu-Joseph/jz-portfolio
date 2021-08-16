@@ -6,7 +6,7 @@ export default function Header() {
     return (
         <header className="Header">
             <Nav />
-            <h2 >
+            <h2>
                 <a className="Title" href="/">
                     Joseph Zhu
                 </a>

@@ -1,25 +1,25 @@
 .Header {
-    background-color: #3AAFA9;
-    width: 100vw;
-    padding: 0 1em 1em;
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    box-shadow: 0 6px 6px -6px rgb(0 0 0 / 15%), 0 0 1px -1px rgb(0 0 0 / 10%);
-    z-index: 1000;
+  background-color: #3AAFA9;
+  width: 100vw;
+  padding: 0 1em 1em;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0 6px 6px -6px rgb(0 0 0 / 15%), 0 0 1px -1px rgb(0 0 0 / 10%);
+  z-index: 1000;
 }
 
 .Header > * {
-    width: fit-content;
-    margin: .5em;
-  }
+  width: fit-content;
+  margin: .5em;
+}
   
 .Title {
-  color: black;
+  color: #17252A;
 }
   
 @media screen and (min-width: 768px) {
@@ -31,23 +31,23 @@
   }
 }
   
-  @media screen and (min-width: 1300px) {
-    .Header {
-      /* adds shadow and transition properties */
-      -webkit-transition-property: background-color, box-shadow;
-      transition-property: background-color, box-shadow;
-      -webkit-transition-duration: .35s;
-      transition-duration: .35s;
-      -webkit-transition-timing-function: ease-in-out;
-      transition-timing-function: ease-in-out;
-      background-color: transparent;
-      box-shadow: none;
-      color: #4c4c4c;
-    }
-  
-    .Header:hover {
-      background-color: #f6efe7bf;
-      box-shadow: rgba(0, 0, 0, 0.15) 0px 6px 6px -9px, rgba(0, 0, 0, 0.1) 0px 0px 1px -1px;
-      color: #242424;
-    }
+@media screen and (min-width: 1300px) {
+  .Header {
+    /* adds shadow and transition properties */
+    -webkit-transition-property: background-color, box-shadow;
+    transition-property: background-color, box-shadow;
+    -webkit-transition-duration: .35s;
+    transition-duration: .35s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+    background-color: transparent;
+    box-shadow: none;
+    color: #4c4c4c;
   }
+  
+  .Header:hover {
+    background-color: #f6efe7bf;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 6px 6px -9px, rgba(0, 0, 0, 0.1) 0px 0px 1px -1px;
+    color: #242424;
+  }
+}
