@@ -1,11 +1,18 @@
 /* GLOBAL CSS */
 /* CHECK https://visme.co/blog/website-color-schemes/ #24 FOR DESIGN */
-* {
+body {
   background-color: #DEF2F1;
 }
 
+/* TO FOLLOW YOUTUBE GUIDE */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 footer {
-  background: #f6efe7;
+  background: #3AAFA9;
   width: 100%;
 }
 
@@ -14,6 +21,7 @@ footer > div {
   font-size: 1em;
   margin: 2em auto;
 }
+
 
 @media screen and (min-width: 900px) {
   footer > div {

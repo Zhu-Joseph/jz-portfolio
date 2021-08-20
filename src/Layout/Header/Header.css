@@ -3,7 +3,7 @@
   width: 100vw;
   padding: 0 1em 1em;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: fixed;
@@ -20,11 +20,13 @@
   
 .Title {
   color: #17252A;
+  text-decoration: none;
 }
-  
+
+
+/* TABLET OR DESKTOP */
 @media screen and (min-width: 768px) {
   .Header {
-    background-color: red;
     flex-direction: row;
     justify-content: space-between;
     padding: 0 1em;

@@ -1,4 +1,10 @@
 /* OTHER CODE */
+.Nav {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
 .Nav > ul {
   display: flex;
   align-items: center;
@@ -21,7 +27,7 @@
 .Nav a:hover {
   font-style: normal;
   text-decoration: underline;
-  color:#3AAFA9;
+  color:#2B7A78;
 }
 /* THIS IS FOR THE LITTLE UNDERLINE STYLING */
 .Nav a::before {
@@ -32,7 +38,7 @@
   bottom: -3px;
   left: 0px;
   background-color: #3AAFA9;
-  background: linear-gradient(to right, #3AAFA9 30%, #2B7A78 60%);
+  background: linear-gradient(to right, #FEFFFF 5%, #3AAFA9 30%, #2B7A78 60%);
 }
 
 
@@ -47,13 +53,12 @@
   }
   
   ul:last-child {
-    margin-right: 10px;
+    margin-right: 100px;
   }
     
   nav {
     position: fixed; 
     overflow: hidden;
-    /* background-color: #333; */
     justify-content: space-between;
     top: 0; 
     width: 100%; 

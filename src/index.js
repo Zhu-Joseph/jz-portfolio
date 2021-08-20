@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router } from "react-router-dom";
 
 import "./index.css"
+import "./scrollbar.css"
 
 ReactDOM.render(
   <React.StrictMode>
