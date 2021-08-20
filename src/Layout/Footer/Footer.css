@@ -1,3 +1,21 @@
+footer {
+    background-color: #3AAFA9;
+    width: 100%;
+    padding: none;
+  }
+  
+  /* footer > div {
+    color: #4c4c4c;
+    font-size: 1em;
+    margin: 2em auto;
+  } */
+  
+
+
+
 .Footer {
     text-align: center;
+    justify-content: center;
+    padding: inherit;
+    width: 84vw;
 }

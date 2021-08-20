@@ -8,6 +8,7 @@
   
   .Project > h3,h4 {
     font-weight: 800;
+    margin-bottom: 2em;
   }
   
   .Project > *:not(.Button) {
@@ -22,9 +23,9 @@
   
   /* Skills blocks */
   .Project__ul > li {
-    font-family: 'Corben', serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: .8em;
-    color: #4c4c4c;
+    color: #17252A;
     letter-spacing: 1px;
     margin: .2em;
     padding: .4em .7em;
@@ -80,6 +81,5 @@
   
     .Project__img {
       margin: 0;
-      background-color: blue;
     }
   }

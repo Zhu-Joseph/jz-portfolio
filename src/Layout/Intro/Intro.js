@@ -11,7 +11,7 @@ export default function Intro() {
     const Url = pictures[pictureNum].url
 
     return (
-        <div>
+        <>
             <section>
                 <div>
                     <div id="About">
@@ -33,6 +33,6 @@ export default function Intro() {
                     </div>
                 </div>
             </section>
-        </div>
+        </>
     )
 }
