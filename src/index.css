@@ -11,6 +11,10 @@ body {
   box-sizing: border-box;
 }
 
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
 footer {
   background: #3AAFA9;
   width: 100%;

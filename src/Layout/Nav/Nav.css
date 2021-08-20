@@ -4,11 +4,12 @@
   align-items: center;
   display: flex;
 }
-
+/* TEST THIS TOMORROW AND THE PADDING */
 .Nav > ul {
   display: flex;
   align-items: center;
   list-style-type: none;
+  padding: inherit;
 }
 
 .Nav__ul > li {
@@ -27,7 +28,7 @@
 .Nav a:hover {
   font-style: normal;
   text-decoration: underline;
-  color:#2B7A78;
+  color:#DEF2F1;
 }
 /* THIS IS FOR THE LITTLE UNDERLINE STYLING */
 .Nav a::before {

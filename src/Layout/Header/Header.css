@@ -13,15 +13,21 @@
   z-index: 1000;
 }
 
-.Header > * {
+/* .Header > * { SHIFT DOWN TO TABLET OR DESKTOP
   width: fit-content;
-  margin: .5em;
-}
+  margin: .25em;
+} */
   
 .Title {
   color: #17252A;
   text-decoration: none;
+  font-size: 30px;
 }
+
+.Title:hover {
+  color:#DEF2F1;
+}
+
 
 
 /* TABLET OR DESKTOP */
