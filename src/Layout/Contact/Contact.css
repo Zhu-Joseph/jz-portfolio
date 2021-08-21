@@ -3,6 +3,10 @@
     text-align: center;
 }
 
-.Contact___links > * {
+.Contact___links a {
     margin: 0 .7em;
+}
+
+.Contact___links h3 {
+    margin-bottom: 1em;
 }

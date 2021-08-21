@@ -4,11 +4,11 @@ import "./Projects.css"
 
 export default function Projects() {
 
-    const list = projects.map((project) => {     
+    const list = projects.map((project, index) => {     
         const {name, subtitle, imageUrl, liveSiteUrl, description, skillsApplied} = project
         
         return (
-            <div>
+            <div key={index}>
                 <h3>{name}</h3>
                 <h4>{subtitle}</h4>
                 <div className="Project___flexContainer">                  
