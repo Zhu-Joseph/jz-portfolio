@@ -1,45 +1,53 @@
 .Project {
     margin: 0 0 3em 0;
   }
-  
-  .Project > h3 {
-    font-size: 1.5em;
-  }
-  
-  .Project > h3,h4 {
-    font-weight: 800;
-    margin-bottom: 2em;
-  }
-  
-  .Project > *:not(.Button) {
-    margin: .3em 0;
-  }
-  
-  .Project__ul {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  
-  /* Skills blocks */
-  .Project__ul > li {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: .8em;
-    color: #17252A;
-    letter-spacing: 1px;
-    margin: .2em;
-    padding: .4em .7em;
-  }
-  
-  .Project__img {
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-  }
 
-  .Project__img:hover {
-    -webkit-filter: grayscale(30%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(30%);
-  }
+.Project-Title {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.Project h3 {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.Project h4 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.Project__p {
+  margin-top: 1.25em;
+}
+
+.Project__ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+  
+/* SKILLS BLOCK */
+.Project__ul > li {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: .8em;
+  color: #17252A;
+  letter-spacing: 1px;
+  margin: .2em;
+  padding: .4em .7em;
+}
+  
+  /* IMAGES */
+.Project__img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.Project__img:hover {
+  -webkit-filter: grayscale(30%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(30%);
+}
 
 
   @media screen and (min-width: 425px) {

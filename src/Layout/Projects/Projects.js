@@ -17,7 +17,7 @@ export default function Projects() {
                     </a>
                     
                     <div className="Project___rightColumn">
-                        <p>{description}</p>
+                        <p className="Project__p">{description}</p>
                         <ul className="Project__ul">
                             {skillsApplied.map((skill, index) => <li key={index}>{skill}</li>)}
                         </ul>
@@ -30,7 +30,7 @@ export default function Projects() {
 
     return (
         <div id="Projects" className="Project">
-            <h3>Projects</h3>
+            <h2 className="Project-Title">Projects</h2>
             {list}
         </div>
     )
