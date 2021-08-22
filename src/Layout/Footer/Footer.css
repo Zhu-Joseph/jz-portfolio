@@ -16,7 +16,6 @@ footer {
 .Footer {
     text-align: end;
     justify-content: center;
-    padding: inherit;
     width: fit-content;
     font-family: 'Noto Sans JP', sans-serif;
     font-style: italic;

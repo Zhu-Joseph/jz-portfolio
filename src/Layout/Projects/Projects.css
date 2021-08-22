@@ -1,5 +1,5 @@
 .Project {
-    margin: 0 0 3em 0;
+    margin: 0 0 2em 0;
   }
 
 .Project-Title {
@@ -36,6 +36,8 @@
   letter-spacing: 1px;
   margin: .2em;
   padding: .4em .7em;
+  margin-bottom: 0em;
+  padding-bottom: 0em;
 }
   
   /* IMAGES */
@@ -48,6 +50,12 @@
   -webkit-filter: grayscale(30%); /* Safari 6.0 - 9.0 */
   filter: grayscale(30%);
 }
+
+
+.Project div {
+  padding-bottom: 0em;
+}
+
 
 
   @media screen and (min-width: 425px) {
