@@ -7,6 +7,11 @@
     margin: 0 .7em;
 }
 
+.Contact___links h2 {
+    font-size: 2em;
+    font-family: 'Lora', serif;
+}
+
 .Contact___links h3 {
     margin-bottom: 1em;
 }
