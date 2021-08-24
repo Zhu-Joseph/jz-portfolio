@@ -1,18 +1,26 @@
 [
     {
+        "name": "Hack for LA Website",
+        "subtitle": "Assisting Hack for LA in keeping their Website Up to Date",
+        "imageUrl": "https://lh3.googleusercontent.com/ouKUR5CNSiBF2jbIgzpgYFvjDYCzZlKMiL4gExHXkMAqGkYnPyIURcKwWA3Hyu3bjnySvARSsq7N39Kd3xuAhJ9OLexVYDHMzw-2_jfC6ecf85FhdoeNtdyt4rJfIOnoTDl8FvOtsw=s200-p-k",
+        "description": "Hack for LA, is the Los Angeles Chapter of Code for America. Working with a team of developers and project managers, my role was to update, maintain and improve the website. Some of the tasks given to me were to refactor code to match best practices, take part in website pages still under development and improve the overall performance of the website.",
+        "skillsApplied": ["HTML", "CSS", "JavaScript", "Docker", "Node", "GitHub", "GitHub Projects", "GitHub Api"],
+        "liveSiteUrl": "https://www.hackforla.org/"
+    },
+    {
         "name": "RAM",
-        "subtitle": "Restaurant Assistance Manager",
-        "imageUrl": "https://lh3.googleusercontent.com/jXSIhGC3vEjhVj6otz5CRDYl94NHkSspSORmFOCkpB7t_N3ECRYwnYo2FFQFx0ywKePTiEZwNkVu14XxCUNEOaPshs-2Yy-O8yHKE14IE2I2O9ZjnLUNoWUf_ez2oZWB6Ie8Kklp1w=w2400",
+        "subtitle": "Restaurant Assistance Manager for your Everyday Manager",
+        "imageUrl": "https://lh3.googleusercontent.com/CEML3j1OFcAwwMk4m5y7VSBoX3yk-JK7nKmqZwxtY1lWvNvhEPXgJyQ9m1mvQbiKxXvYS0iPhcfofGYVulOCCyFs0ABPvjJ8XRwio33inl73V6Xj608o2vwu2H1KFk9nl64VhjEnEg=s200-p-k",
         "description": "RAM is an app that assists restaurant managers in organizing and seating their reservations. By keeping the app simple, RAM is incredibly easy to use and user friendly. This helps small businesses focus less on training to learn new technology and more on providing the best restaurant experience.",
         "skillsApplied": ["JavaScript ", "React ", "React Router ", "Node.js ", "Express ", "Knex ", "Mocha ", "Chai ", "HTML ", "CSS ", "PostgresSQL "],
         "liveSiteUrl": "https://restaurant-reservation-front-end-opal.vercel.app/dashboard"
     },
     {
-        "name": "Second Project",
-        "subtitle": "Restaurant Assistance Manager",
-        "imageUrl": "https://lh3.googleusercontent.com/jXSIhGC3vEjhVj6otz5CRDYl94NHkSspSORmFOCkpB7t_N3ECRYwnYo2FFQFx0ywKePTiEZwNkVu14XxCUNEOaPshs-2Yy-O8yHKE14IE2I2O9ZjnLUNoWUf_ez2oZWB6Ie8Kklp1w=w2400",
-        "description": "RAM is an app that assists restaurant managers in organizing and seating their reservations. By keeping the app simple, RAM is incredibly easy to use and user friendly. This helps small businesses focus less on training to learn new technology and more on providing the best restaurant experience.",
+        "name": "Simple Study",
+        "subtitle": "A Flashcard App for the Everyday Student",
+        "imageUrl": "https://lh3.googleusercontent.com/liZNby8HhMYdb4vSeYPTNKGou10sC5KKUReYeKVcwmXuEkKNRjRuQejRrtQk3is8OWJbUpVDczu7qp3gjYVpgSC6ETjXHBOTDasMTkusQj3F4Sye0SWXn2ywqW9GKJJhk5TYAPEX0g=s200-p-k",
+        "description": "Simple Study is a flashcard application designed to meet the needs of the everyday student. The easily accessible and well designed application makes it easy for students to read and review flashcards, as well as create separate decks of cards for other categories. This allows the users to fully customize their learning experience.",
         "skillsApplied": ["JavaScript", "React", "React Router", "Node.js", "Express", "Knex", "Mocha", "Chai", "HTML", "CSS", "PostgresSQL"],
-        "liveSiteUrl": "https://restaurant-reservation-front-end-opal.vercel.app/dashboard"
+        "liveSiteUrl": ""
     }
 ]
