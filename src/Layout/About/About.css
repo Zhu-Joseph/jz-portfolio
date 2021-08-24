@@ -1,5 +1,35 @@
-.Profile {
+.Greeting {
     text-align: center;
     font-size: 2em;
     font-family: 'Lora', serif;
+    font-style: italic;
+}
+
+.Im {
+    display: none;
+}
+
+.Name {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .Greeting {
+        display: none;
+    }
+
+    .Im {
+        font-family: 'Lora', serif;
+        font-style: italic;
+        font-size: .9em;
+        display: block;
+        text-align: center;
+    }
+
+    .Name {
+        display: block;
+        text-align: center;
+        font-size: 2em;
+        font-family: 'Lora', serif;
+    }
 }

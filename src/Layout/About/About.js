@@ -4,7 +4,9 @@ import "./About.css"
 export default function About() {
     return (
         <div id="About">
-            <h1 className="Profile">hello world</h1>
+            <div className="Greeting">hello world</div>
+            <div className="Im">hello world, I'm</div>
+            <div className="Name">Joseph Zhu</div>
             <p>
                 I graduated from UCLA in 2016 with a career lined up as a tax accountant. 
                 My hope was to help guide people towards financial freedom, 
