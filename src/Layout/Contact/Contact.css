@@ -7,6 +7,10 @@
     margin: 0 .7em;
 }
 
+.Contact___links svg:hover {
+    fill: #17252A;
+}
+
 .Contact___links h2 {
     font-size: 2em;
     font-family: 'Lora', serif;

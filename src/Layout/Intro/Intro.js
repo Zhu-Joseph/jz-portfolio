@@ -11,7 +11,7 @@ export default function Intro() {
     const Url = pictures[pictureNum].url
 
     return (
-        <section>
+        <section id="About">
             <img alt={Alt} src={Url} className="Pic"/>                      
         </section>
     )

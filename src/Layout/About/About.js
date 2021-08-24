@@ -3,20 +3,25 @@ import "./About.css"
 
 export default function About() {
     return (
-        <div id="About">
+        <div className="Profile">
             <div className="Greeting">hello world</div>
             <div className="Im">hello world, I'm</div>
             <div className="Name">Joseph Zhu</div>
             <p>
-                I graduated from UCLA in 2016 with a career lined up as a tax accountant. 
-                My hope was to help guide people towards financial freedom, 
-                specifically through helping people with their taxes. 
-                However, as I was working in tax, 
-                I eventually realized that building better and more accessible software was going to reach more people than a single CPA could.
+                My journey into software development is not typical. 
+                I have a CPA, a degree in Economics from UCLA and about three years of experience in accounting. 
+                However, during my time working, I began to realize how vital software was in our everyday life. 
+                It could literally save your day with the auto save function, or ruin it by not working properly. 
+                Eventually, I realized that my interest in software development outweighed my interest in accounting.
             </p>
             <p>
-                Being a CPA in Los Angeles has given me the background and knowledge of what professionals and average Joes are looking for. 
-                They want something simple, easy to use, and accurate in order to bring them confidence in their financial situation.
+                This led me to take a leap of faith and enroll in a Full-Stack programming bootcamp with Thinkful. 
+                There I was able to learn languages such as JavaScript, React, Node, HTML and CSS, all while learning industry best practices. 
+            </p>
+            <p>
+                Coupling my software development experience with my accounting background has taught me to not miss the forest for the trees. 
+                To balance being detail oriented and seeing the overall picture. 
+                I hope to exercise my skills as <a className="Job" alt="Job Hunt" href="#Contact">I am currently on the job hunt </a>and look forward to learning more from other great programmers.
             </p>
         </div>
     )

@@ -1,24 +1,27 @@
-/* GLOBAL CSS */
 /* CHECK https://visme.co/blog/website-color-schemes/ #24 FOR DESIGN */
-body {
-  background-color: #DEF2F1;
-}
 
+/* RESET CERTAIN DEFAULT SETTINGS*/
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 
-p {
-  font-family: 'Open Sans', sans-serif;
-}
-
 ul {
   list-style-type: none;
+  padding-left: 0em;
 }
 
 
+/* GLOBAL CSS */
+body {
+  background-color: #DEF2F1;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: #17252A;
+}
 
 
 @media screen and (min-width: 900px) {
