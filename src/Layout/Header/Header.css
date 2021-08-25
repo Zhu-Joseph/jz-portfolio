@@ -21,7 +21,8 @@
 .Title {
   color: #17252A;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 1em;
+  font-family: 'Lora', serif;
 }
 
 .Title:hover {

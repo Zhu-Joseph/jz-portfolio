@@ -3,7 +3,7 @@ import Nav from '../Nav/Nav'
 import "./Header.css"
 
 export default function Header() {
-    // NOT BEING USED MAYBE DELETE
+    
     return (
         <header className="Header">
             <h2>
