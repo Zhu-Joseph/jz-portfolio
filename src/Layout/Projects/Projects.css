@@ -1,6 +1,6 @@
 .Project {
-    margin: 0 0 2em 0;
-  }
+  margin: 0 0 2em 0;
+}
 
 .Project-Title {
   font-size: 2em;
@@ -58,14 +58,6 @@
 
 .Project div {
   padding-bottom: 0em;
-}
-
-
-
-@media screen and (min-width: 425px) {
-  /* .Project__img {
-    margin: 0 calc(calc(100% - 360px) / 2)
-  } */
 }
   
 @media screen and (min-width: 768px) {

@@ -4,21 +4,24 @@ footer {
   padding: 0em;
   display: block;
 }
-  
 
-
-  /* footer > div {
-    color: #4c4c4c;
-    font-size: 1em;
-    margin: 2em auto;
-  } */
-  
 .Footer {
-    text-align: end;
-    justify-content: center;
-    width: fit-content;
-    font-family: 'Noto Sans JP', sans-serif;
-    font-style: italic;
-    color: #17252A;
+  text-align: end;
+  justify-content: center;
+  width: fit-content;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-style: italic;
+  color: #17252A;
 }
 
+@media screen and (min-width: 768px) {
+  .Footer {
+    margin: 3em auto 2.5em auto;
+  }
+}
+  
+@media screen and (min-width: 1180px) {
+  .Footer {
+    margin: 3em auto;
+  }
+}
