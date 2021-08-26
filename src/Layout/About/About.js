@@ -4,8 +4,8 @@ import "./About.css"
 export default function About() {
     return (
         <div className="Profile">
-            <div className="Greeting">hello world</div>
-            <div className="Im">hello world, I'm</div>
+            <div className="Hello">hello world</div>
+            <div className="Greeting">hello world, I'm</div>
             <div className="Name">Joseph Zhu</div>
             <p>
                 My journey into software development was not typical. 

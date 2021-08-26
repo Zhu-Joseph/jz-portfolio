@@ -41,41 +41,8 @@
   background: linear-gradient(to right, #FEFFFF 5%, #3AAFA9 30%, #2B7A78 60%);
 }
 
-
-
-
-
-/* TO ADJUST FOR DESKTOP CLASS BEATS OR SUPERSEDS GLOBAL NAV*/
 @media screen and (min-width: 768px) {
-
-  ul li {
-    margin-right: 20px;
+  .Nav {
+    margin: 2px 1em 0px auto;
   }
-  
-  ul:last-child {
-    margin-right: 100px;
-  }
-    
-  nav {
-    position: fixed; 
-    overflow: hidden;
-    justify-content: space-between;
-    top: 0; 
-    width: 100%; 
-  }
-
-  nav a {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-
-  nav a:hover {
-    background: #ddd;
-    color: black;
-  }
-
 }
