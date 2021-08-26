@@ -15,13 +15,11 @@ export default function Projects() {
                     <a alt={subtitle} href={liveSiteUrl} target="_blank" rel="noreferrer" >
                         <img alt={name} src={imageUrl} className="Project__img " />
                     </a>                    
-                    <div className="Project___rightColumn">
-                        <p className="Project__p">{description}</p>
-                        <ul className="Project__ul">
-                            {skillsApplied.map((skill, index) => <li key={index}>{skill}</li>)}
-                        </ul>
-                    </div>
+                    <p className="Project__p">{description}</p>
                 </div>
+                <ul className="Project__ul">
+                    {skillsApplied.map((skill, index) => <li key={index}>{skill}</li>)}
+                </ul>
             </div>
         )
     })

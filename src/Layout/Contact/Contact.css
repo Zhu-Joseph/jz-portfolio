@@ -19,3 +19,9 @@
 .Contact___links h3 {
     margin-bottom: 1em;
 }
+
+@media screen and (min-width: 768px) {
+  .Contact___links {
+      margin: 1em 2.5em;
+  }
+}
