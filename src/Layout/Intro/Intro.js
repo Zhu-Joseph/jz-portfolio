@@ -11,7 +11,7 @@ export default function Intro() {
 
     return (
         <section id="About">
-            <img alt={Alt} src={Url} className="Pic"/>                      
+            <img  rel="preload" alt={Alt} src={Url} className="Pic"/>                      
         </section>
     )
 }

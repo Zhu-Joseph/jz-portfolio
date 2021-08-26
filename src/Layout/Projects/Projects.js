@@ -12,8 +12,8 @@ export default function Projects() {
                 <h3>{name}</h3>
                 <h4>{subtitle}</h4>
                 <div className="Project___flexContainer">                  
-                    <a alt={subtitle} href={liveSiteUrl} target="_blank" rel="noreferrer" >
-                        <img alt={name} src={imageUrl} className="Project__img " />
+                    <a alt={subtitle} href={liveSiteUrl} target="_blank" rel="noreferrer">
+                        <img rel="preload" alt={name} src={imageUrl} className="Project__img " />
                     </a>                    
                     <p className="Project__p">{description}</p>
                 </div>
