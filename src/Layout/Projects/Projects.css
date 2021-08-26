@@ -95,3 +95,13 @@
     margin: -1em 3em 1.25em;
   }
 }
+
+@media screen and (min-width: 992px) {
+  .Project__img {
+    padding: 0;
+  }
+
+  .Project__p {
+    margin: 2em 2.6em 1em 1em;
+  }
+}
