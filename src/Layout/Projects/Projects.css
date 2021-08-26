@@ -42,7 +42,7 @@
   padding: .4em .7em 0em .7em;
 }
   
-  /* IMAGES */
+/* IMAGES */
 .Project__img {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
@@ -103,5 +103,12 @@
 
   .Project__p {
     margin: 2em 2.6em 1em 1em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .Project___flexContainer {
+    margin: 1em !important;
+    width: 90%;
   }
 }

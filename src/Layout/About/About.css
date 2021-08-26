@@ -56,3 +56,10 @@
         width: 90%;
     }
 }
+
+@media screen and (min-width: 1200px) {
+    .Profile {
+        margin: 2em 5em;
+        width: 87%; 
+    }
+  }

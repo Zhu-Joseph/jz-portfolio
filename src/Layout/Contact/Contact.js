@@ -5,7 +5,6 @@ import "./Contact.css"
 export default function Contact() {
   const color ="#2B7A78"
 
-
     return (
         <div id="Contact" className="Contact___links">
           <h2>Contact</h2>
