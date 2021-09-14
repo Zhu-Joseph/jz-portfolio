@@ -21,6 +21,6 @@
         "imageUrl": "https://lh3.googleusercontent.com/liZNby8HhMYdb4vSeYPTNKGou10sC5KKUReYeKVcwmXuEkKNRjRuQejRrtQk3is8OWJbUpVDczu7qp3gjYVpgSC6ETjXHBOTDasMTkusQj3F4Sye0SWXn2ywqW9GKJJhk5TYAPEX0g=s200-p-k",
         "description": "Simple Study is a flashcard application designed to meet the needs of the everyday student. The easily accessible and well designed application makes it easy for students to read and review flashcards, as well as create separate decks of cards for other categories. This allows the users to fully customize their learning experience.",
         "skillsApplied": ["JavaScript", "React", "React Router", "Node.js", "Express", "Knex", "Mocha", "Chai", "HTML", "CSS", "PostgresSQL"],
-        "liveSiteUrl": ""
+        "liveSiteUrl": "https://flashcards-project-gray.vercel.app"
     }
 ]
