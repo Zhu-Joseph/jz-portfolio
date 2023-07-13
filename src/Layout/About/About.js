@@ -16,7 +16,10 @@ export default function About() {
             </p>
             <p>
                 This led me to take a leap of faith and enroll in a Full-Stack programming bootcamp with Thinkful. 
-                There I was able to learn languages such as JavaScript, React, Node, Express, HTML and CSS, all while learning industry best practices. 
+                There I was able to learn languages such as JavaScript, HTML, and CSS, use frameworks such as React, Node, and Express, and learn industry best practices.
+                In turn, I successfully landed a position as a software engineer where I primarily worked on the backend developing the API.
+                My quick learning ability helped me pick up new languages and frameworks such as Ruby on Rails, PostgreSQL, and ActiveAdmin.
+                Additionally, I developed new skills in test driven development using Rspec and Minitest, as well as developer tools such as Rollbar, DataDog and Porter. 
             </p>
             <p>
                 Coupling my software development experience with my accounting background has taught me to not miss the forest for the trees. 
