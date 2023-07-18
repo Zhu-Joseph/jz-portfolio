@@ -4,7 +4,7 @@ import "./Intro.css"
 
 export default function Intro() {
 // GENERATE A RANDOM PROFILE PICTURE
-    const pictureNum = Math.floor(Math.random() * 6)
+    const pictureNum = Math.floor(Math.random() * pictures.length)
     
     const Alt = pictures[pictureNum].alt
     const Url = pictures[pictureNum].url
